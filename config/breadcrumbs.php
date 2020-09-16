@@ -32,12 +32,12 @@ return [
     |
     | The file(s) where breadcrumbs are defined. e.g.
     |
-    | - base_path('routes/breadcrumbs.php')
+    | - __DIR__ . ('/../routes/breadcrumbs.php')
     | - glob(base_path('breadcrumbs/*.php'))
     |
     */
 
-    'files' => base_path('routes/breadcrumbs.php'),
+    'files' => __DIR__ . ('/../routes/breadcrumbs.php'),
 
     /*
     |--------------------------------------------------------------------------
